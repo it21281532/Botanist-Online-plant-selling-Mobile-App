@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_margintop">12dp</dimen>
+    <dimen name="layout_margintop_text" />
+    <dimen name="margin_top_text">32dp</dimen>
+    <dimen name="margin_top_text2">28dp</dimen>
+</resources>
