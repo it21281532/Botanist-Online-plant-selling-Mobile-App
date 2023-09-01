@@ -60,7 +60,7 @@ class EmployeeDetailsActivity : AppCompatActivity() {
         tvEmpFeedback.text = intent.getStringExtra("empFeedback")
 
     }
-
+//delete record
     private fun deleteRecord(
         id: String
     ){
@@ -77,7 +77,7 @@ class EmployeeDetailsActivity : AppCompatActivity() {
             Toast.makeText(this, "Deleting Err ${error.message}", Toast.LENGTH_LONG).show()
         }
     }
-
+//update details
     private fun openUpdateDialog(
         empId: String,
         empName: String
@@ -121,6 +121,7 @@ class EmployeeDetailsActivity : AppCompatActivity() {
             alertDialog.dismiss()
         }
     }
+    //update data
     private fun updateEmpData(
         id: String,
         name: String,
